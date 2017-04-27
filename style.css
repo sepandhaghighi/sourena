@@ -105,6 +105,19 @@ body{
 
 } 
 @media all and (max-width: 1024px) {
+    .header{
+
+    height: auto;
+}
+    .header p{
+
+    font-size: 50px;
+        padding-bottom: 30px;
+
+}
+    .header img{
+        display: none;
+    }
     .part-1 img{
     width: 100%;
 }
@@ -123,10 +136,11 @@ body{
     #address-footer{
         float: none;
         width: 100%;
+        height: auto;
         position: static;
     }
     #address-footer p{
-    font-size: 100%;
+    font-size: 30px;
 }
     
 }
