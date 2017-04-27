@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: "yekan";
+    src:url("fonts/Yekan.eot?#") format("eot"),    
+          url("fonts/Yekan.woff") format("woff"),
+          url("fonts/Yekan.ttf") format("truetype"); 
+}
+body{
+    margin: 0;
+}
+.part-1 img{
+    height: 100%;
+    border: 1px black solid;
+    width: 40%;
+}
+.part-1,.part-2,.part-3{
+    margin: auto;
+    text-align: center;
+    animation: anim;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.part-2,.part-3{
+    margin-top: 10px;
+}
+
+.part-2 img{
+    height: 100%;
+    border:1px black solid;
+    width: 40%;
+}
+.part-3 img{
+    height: 100%;
+    border:1px black solid;
+    width: 40%;
+}
+
+
+#login-footer p{
+    margin:auto;
+    font-family: "yekan";
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#login-footer{
+    float: right;
+    color: white;
+    width: 20%;
+    bottom: 5;
+    right: 5;
+    text-align: center;
+    background-color: #12255A;
+    position:sticky;
+    font-size: 17px;
+    margin: auto;
+    height: 20%;
+    border-radius: 10px;
+}
+
+@keyframes anim{
+    0%{opacity: 0;}
+    25%{opacity: 0.1;}
+    50%{opacity: 0.3;}
+    75%{opacity: 0.7;}
+    100%{opacity: 1;}
+
+} 
+@media all and (max-width: 1024px) {
+    .part-1 img{
+    width: 90%;
+}
+    .part-3 img{
+        width: 90%;
+    }
+    
+    .part-2 img{
+        
+        width: 90%;
+    }
+    #login-footer{
+        display: none;
+    }
+    
+}
