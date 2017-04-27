@@ -56,14 +56,15 @@ body{
     float: right;
     color: white;
     width: 20%;
-    bottom: 5;
-    right: 5;
+    bottom: 10;
+    right: 10;
     text-align: center;
     background-color: #12255A;
     position:fixed;
     margin: auto;
     height: 25%;
     border-radius: 10px;
+    box-shadow:5px 5px #445175;
 }
 
 @keyframes anim{
