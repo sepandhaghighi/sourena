@@ -27,6 +27,7 @@ body{
 
 .part-2,.part-3{
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .part-2 img{
@@ -59,7 +60,7 @@ body{
     right: 5;
     text-align: center;
     background-color: #12255A;
-    position:sticky;
+    position:fixed;
     margin: auto;
     height: 25%;
     border-radius: 10px;
