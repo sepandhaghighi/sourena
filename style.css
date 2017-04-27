@@ -12,12 +12,14 @@ body{
     height: 100%;
     border: 1px black solid;
     width: 40%;
+    border-radius: 5px;
 }
 .part-1,.part-2,.part-3{
     margin: auto;
+    margin-top: 8px;
     text-align: center;
     animation: anim;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
 }
 
@@ -29,20 +31,21 @@ body{
     height: 100%;
     border:1px black solid;
     width: 40%;
+    border-radius: 5px;
 }
 .part-3 img{
     height: 100%;
     border:1px black solid;
     width: 40%;
+    border-radius: 5px;
 }
-
 
 #login-footer p{
     margin:auto;
     font-family: "yekan";
     text-align: right;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 80%;
 }
 #login-footer{
     float: right;
@@ -60,10 +63,10 @@ body{
 }
 
 @keyframes anim{
-    0%{opacity: 0;}
-    25%{opacity: 0.1;}
-    50%{opacity: 0.3;}
-    75%{opacity: 0.7;}
+    0%{opacity: 0.2;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0.7;}
+    75%{opacity: 0.8;}
     100%{opacity: 1;}
 
 } 
