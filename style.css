@@ -45,14 +45,18 @@ body{
     border-radius: 5px;
 }
 
-#login-footer p{
+#address-footer p{
     margin:auto;
     font-family: "yekan";
     text-align: right;
     margin-right: 10px;
     font-size: 88%;
 }
-#login-footer{
+#address-footer i{
+    text-align: right;
+    margin-left: 5px;
+}
+#address-footer{
     float: right;
     color: white;
     width: 20%;
@@ -87,7 +91,11 @@ body{
         
         width: 90%;
     }
-    #login-footer{
+    
+    .part-2,.part-1,.part-3{
+        height: 100%;
+    }
+    #address-footer{
         display: none;
     }
     
