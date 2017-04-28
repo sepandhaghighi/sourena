@@ -15,16 +15,24 @@ body{
     width: 100px;
     float: right;
     margin-right: 10px;
-    
+    animation-name: anim-arm;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    margin-top: 10px;
+}
+
+.header img:hover{
+    opacity: 0.5;
 }
 .header{
     width: 100%;
-    height: 110px;
+    height: 120px;
     background:linear-gradient(90deg,#12255A,#FFE400);
     animation: anim;
     animation-duration: 2s;
     animation-iteration-count: 1;
 }
+
 
 .header p{
     font-family: "yekan";
@@ -104,6 +112,15 @@ body{
     50%{opacity: 0.7;}
     75%{opacity: 0.8;}
     100%{opacity: 1;}
+
+} 
+
+@keyframes anim-arm{
+    0%{transform:scale(1,1);}
+    25%{transform:rotate(90deg);}
+    50%{transform:rotate(180deg);}
+    75%{transform:rotate(270deg);}
+    100%{transform:rotate(360deg);}
 
 } 
 @media all and (max-width: 1024px) {
