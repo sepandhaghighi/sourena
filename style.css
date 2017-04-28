@@ -8,6 +8,11 @@
 body{
     margin: 0;
     background-color: #FAFAFA;
+
+}
+
+.body-part{
+    background-image: url(images/sspfinaler.png);
 }
 
 .header img{
@@ -55,9 +60,6 @@ body{
     margin: auto;
     margin-top: 8px;
     text-align: center;
-    animation: anim;
-    animation-duration: 2.5s;
-    animation-iteration-count: 1;
 }
 
 .part-2,.part-3{
