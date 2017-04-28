@@ -13,6 +13,7 @@ body{
 
 .body-part{
     background-image: url(images/sspfinaler.png);
+    background-position: center;
 }
 
 .header img{
@@ -164,6 +165,9 @@ body{
     }
     #address-footer p{
     font-size: 30px;
+}
+    .body-part{
+    background-image: none;
 }
     
 }
