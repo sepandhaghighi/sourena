@@ -77,7 +77,7 @@ body{
     font-family: "yekan";
     text-align: right;
     margin-right: 10px;
-    font-size: 88%;
+    font-size: 100%;
 }
 #address-footer i{
     text-align: right;
@@ -93,7 +93,7 @@ body{
     background-color: #12255A;
     position:fixed;
     margin: auto;
-    height: 25%;
+    height: auto;
     border-radius: 10px;
     box-shadow:5px 5px #445175;
 }
